@@ -1,0 +1,7 @@
+{
+  "name": "Chaville Parking App",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
