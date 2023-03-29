@@ -1,0 +1,51 @@
+/* Style for ion-header */
+ion-header {
+  background-color: #fff; /* Header background color */
+  border-bottom: 1px solid #ccc; /* Header border */
+}
+
+/* Style for ion-toolbar */
+ion-toolbar {
+  color: #333; /* Toolbar font color */
+}
+
+/* Style for ion-title */
+ion-title {
+  font-size: 1.2rem; /* Title font size */
+}
+
+/* Style for ion-content */
+ion-content {
+  padding: 20px; /* Content padding */
+}
+
+/* Style for ion-item */
+ion-item {
+  border-bottom: 1px solid #ccc; /* Item border */
+}
+
+/* Style for offer name */
+.parking-name {
+  font-weight: bold; /* Offer name font weight */
+  font-size: 1.1rem; /* Offer name font size */
+}
+
+/* Style for offer address */
+.parking-address {
+  font-size: 0.9rem; /* Offer address font size */
+  color: #666; /* Offer address font color */
+}
+
+/* Style for offer description */
+.parking-spaces {
+  font-size: 0.9rem; /* Offer description font size */
+}
+
+.page-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}

@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <img src="assets/icon/parking_app_logo.png">
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-item>
+        <ion-input [(ngModel)]="user.email" placeholder = "email" type="mail"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input [(ngModel)]="user.password" placeholder = "mot de passe" type="password"></ion-input>
+      </ion-item>
+      <ion-button (click)="login()">se connecter</ion-button>
+      <ion-button (click)="register()">s'enregistrer</ion-button>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

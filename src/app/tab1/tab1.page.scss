@@ -1,0 +1,29 @@
+ion-content.ion-text-center {
+  height: 100%;
+}
+
+.qrcode-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+@media only screen and (min-height: 450px) {
+  .page-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+  }
+}
+
+@media only screen and (max-height: 450px) {
+  .page-description {
+    display: none;
+  }
+}

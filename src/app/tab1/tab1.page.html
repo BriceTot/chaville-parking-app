@@ -1,17 +1,28 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
+    <ion-buttons slot="end">
+      <ion-button (click)="signOut()">
+        <ion-icon slot="icon-only" name="log-out-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
     <ion-title>
-      Tab 1
+      QR code
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+<ion-content class="ion-text-center" [fullscreen]="true">
+
+  <ion-card class="page-description">
+    <ion-card-content>
+      Ce QR code peut être scanné par les commerçants partenaires pour vous offrir 15 minutes gratuites dans les parking
+      et places de stationnement de Chaville
+    </ion-card-content>
+  </ion-card>
+
+  <div class="qrcode-container">
+    <qrcode [qrdata]="myAngularxQrCode" [width]="256" [errorCorrectionLevel]="'M'"></qrcode>
+  </div>
+
 </ion-content>
